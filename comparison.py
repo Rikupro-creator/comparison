@@ -22,7 +22,7 @@ st.markdown("Compare two countries based on metrics from Our World in Data")
 def load_dataset():
     try:
         # Try the original file path
-        file_path = "C:\\Users\\Michael Njuguna\\Downloads\\owid_data.xlsx"
+        file_path = "owid_data.xlsx"
         
         # Check if file exists
         if os.path.exists(file_path):
